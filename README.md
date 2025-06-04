@@ -20,7 +20,7 @@ pkg update && pkg upgrade -y
 pkg install git
 pkg install python -y
 cd $HOME
-rm -rf BDCRK
+rm -rf CYTHONIZE
 git clone https://github.com/SKBER-CYBER/CYTHONIZE
 git pull
 cd CYTHONIZE
